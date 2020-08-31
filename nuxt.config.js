@@ -16,7 +16,7 @@ module.exports = {
       { name: 'msapplication-TileColor',  content: '#ffffff' },
       { name: 'msapplication-TileImage',  content: '/ms-icon-144x144.png' },
       { name: 'theme-color',  content: '#ffffff' },
-      
+
       // Facebook open graph
       { property: 'og:type',  content: 'website' },
       { property: 'og:url',  content: 'https://example.com/page.html' },
@@ -60,7 +60,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: 'red' },
 
   /*
   ** Global CSS

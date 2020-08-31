@@ -135,7 +135,7 @@ export const getters = {
     });
   },
   getProductById: state => id => {
-    return state.products.find(product => product.id == id);
+    return state.products.find(product => product.id === id);
   },
   isUserLoggedIn: state => {
     return state.userInfo.isLoggedIn;
@@ -236,7 +236,7 @@ export const mutations = {
     state.authUser = authUser
   }
 }
-/* 
+/*
 export const actions = {
   async nuxtServerInit({ commit }) {
     const res = await this.$axios.get("/api/current_user")
