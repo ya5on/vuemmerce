@@ -1,16 +1,12 @@
 {
   "name": "vuemmerce",
   "version": "0.9.3",
-  "description": "Responsive ecommerce template built with Vue.js and Nuxt.js",
-  "author": "ivan lori <ivan.lori@protonmail.com>",
+  "description": "built with Nuxt.js",
+  "author": "AlexGuy <spaunfrom@gmail.com>",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ivanlori/Vuemmerce.git"
   },
   "keywords": [
     "css",
